@@ -31,8 +31,8 @@ function App() {
           <h2>Core Concepts</h2>
           <ul>
             {
-              CORE_CONCEPTS.map((item)=> {
-                return <CoreConcept {...item} />
+              CORE_CONCEPTS.map((item,index)=> {
+                return <CoreConcept key={index} {...item} />
               })
             }
             
