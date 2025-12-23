@@ -1,0 +1,19 @@
+.sectionGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-flow: wrap;
+}
+
+.sectionArea {
+    text-align: left;
+    background-color: #cccccc4d;
+    padding: 10px;
+    border-radius: 4px;
+    min-width: 200px;
+}
+
+.sectionArea > h2 {
+    text-align: left;
+}
